@@ -1,0 +1,139 @@
+.containerCategories {
+  height: 91vh;
+  width: 100vw;
+  text-align: center;
+  background-color: #ECD3FF;
+}
+
+.headerCategories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleCategories {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.bodyCategories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 458px;
+  background-color: #ECD3FF;
+}
+
+.inputsCategoriesContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 1%;
+}
+
+.inputsCategoriesContainerLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputsCategoriesContainerRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputsCategoriesTitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.inputsCategoriesHolders {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 402px;
+  height: 50px;
+  border: none;
+}
+
+.buttonsCategoriesContainer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonCategories{
+  background-color: #CC78FF;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #000000;
+}
+
+.footerCategories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+
+}
+
+.consoleBG {
+  background-color: #454545;
+  border-radius: 10px;
+  width: 994px;
+  height: 220px;
+}
+.consoleDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}  
+.consoleDisplayContentText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 1%;
+}
+
+.consoleDisplayContentStatus {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1%;
+}

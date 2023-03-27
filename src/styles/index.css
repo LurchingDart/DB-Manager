@@ -1,0 +1,17 @@
+.html, body {
+    height: 100%;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.home,
+.login,
+.products {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: #000;
+    color: #fff;
+}
