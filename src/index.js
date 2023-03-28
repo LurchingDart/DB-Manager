@@ -12,7 +12,7 @@ import Products from './routes/Products';
 import NavBar from './components/NavBar';
 import Login from './routes/Login';
 import Categories from './routes/Categories';
-import Test from './routes/App';
+import Test from "./routes/Test";
 import ErrorPage from './routes/ErrorPage';
 import "./styles/index.css"
 
@@ -47,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "login",
         element: <Login />
+      },
+      {
+        path: "test",
+        element: <Test />
       },
     ]
   }

@@ -5,6 +5,7 @@ import { GiRocketThruster } from 'react-icons/gi';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { DiMongodb } from 'react-icons/di';
+import Test from './../routes/Test';
 
 
 function NavBar() {
@@ -66,6 +67,15 @@ function NavBar() {
                             onClick={closeMobileMenu}
                             >
                                 Categories
+                            </NavLink> 
+                        </li>
+                        <li className="nav-item">
+                            <NavLink 
+                            to="/test" 
+                            className={({ isActive }) => "nav-links" + (isActive ? " activated" : "") }
+                            onClick={closeMobileMenu}
+                            >
+                                Test
                             </NavLink> 
                         </li>
                     </ul>

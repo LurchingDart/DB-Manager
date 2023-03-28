@@ -6,8 +6,8 @@
 }
 
 .headerCategories {
+  height: 15vh;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -24,20 +24,19 @@
 }
 
 .bodyCategories {
+  height: 46vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  height: 458px;
   background-color: #ECD3FF;
+
 }
 
 .inputsCategoriesContainer {
+  height: 30vh;
   display: flex;
   flex-direction: row;
-  width: 100%;
   justify-content: space-evenly;
-  margin: 1%;
+  padding-top: 50px;
 }
 
 .inputsCategoriesContainerLeft {
@@ -73,9 +72,10 @@
 }
 
 .buttonsCategoriesContainer {
-  margin-top: auto;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 16vh;
 }
 
 .buttonCategories{
@@ -92,12 +92,10 @@
 }
 
 .footerCategories {
+  height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  height: 300px;
-
 }
 
 .consoleBG {

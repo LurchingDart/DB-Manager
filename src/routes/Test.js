@@ -1,6 +1,5 @@
 import React from 'react'
 import axios from 'axios';
-import Button from '@mui/material/Button';
 import "../styles/Categories.css"
 // import Console from './../components/Console';
 
@@ -24,7 +23,7 @@ function handleSubmit() {
     });
 }
 
-function Categories() {
+function Test() {
     return (
         <div className="containerCategories">
             <header className="headerCategories">
@@ -62,4 +61,4 @@ function Categories() {
     );
 }
 
-export default Categories;
+export default Test;
