@@ -1,0 +1,26 @@
+.containerLogin {
+    height: 88.5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.containerLeftLogin {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containerRightLogin {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.titleUpLogin {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}

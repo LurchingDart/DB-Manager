@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import "../styles/NavBar.css"
-import { GiRocketThruster } from 'react-icons/gi';
+import "../styles/Components/NavBar.css"
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { DiMongodb } from 'react-icons/di';
-import Test from './../routes/Test';
 
 
 function NavBar() {
@@ -62,20 +60,11 @@ function NavBar() {
                         </li>
                         <li className="nav-item">
                             <NavLink 
-                            to="/categories" 
+                            to="/categories/post" 
                             className={({ isActive }) => "nav-links" + (isActive ? " activated" : "") }
                             onClick={closeMobileMenu}
                             >
                                 Categories
-                            </NavLink> 
-                        </li>
-                        <li className="nav-item">
-                            <NavLink 
-                            to="/test" 
-                            className={({ isActive }) => "nav-links" + (isActive ? " activated" : "") }
-                            onClick={closeMobileMenu}
-                            >
-                                Test
                             </NavLink> 
                         </li>
                     </ul>

@@ -3,18 +3,19 @@ import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
   Outlet,
 } from "react-router-dom";
 import Home from "./routes/Home";
-import Products from './routes/Products';
-import NavBar from './components/NavBar';
 import Login from './routes/Login';
-import Categories from './routes/Categories';
-import Test from "./routes/Test";
+import Products from './routes/Products/ProductsMain';
+import ProductsPost from './routes/Products/ProductsPost'
+import Categories from './routes/Categories/CategoriesMain';
+import CategoriesPost from './routes/Categories/CategoriesPost';
+
 import ErrorPage from './routes/ErrorPage';
+import NavBar from './components/NavBar';
 import "./styles/index.css"
+
 
 
 const AppLayout = () => {
@@ -37,20 +38,20 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "login",
+        element: <Login />
+      },
+      {
         path: "products",
-        element: <Products />
+        element: <ProductsPost />
       },
       {
         path: "categories",
         element: <Categories />
       },
       {
-        path: "login",
-        element: <Login />
-      },
-      {
-        path: "test",
-        element: <Test />
+        path: "categories/post",
+        element: <CategoriesPost />
       },
     ]
   }

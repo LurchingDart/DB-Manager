@@ -1,0 +1,124 @@
+.containerProductsPost {
+}
+
+.headerProductsPost {
+display: flex;
+justify-content: center;
+}
+
+.titleProductsPost {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 77px;
+display: flex;
+align-items: center;
+text-align: center;
+color: white;
+}
+
+.bodyProductsPost {
+height: auto;
+display: flex;
+flex-direction: column;
+}
+
+.inputsProductsPostContainer {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+.inputsProductsPostContainerLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.inputsProductsPostContainerRight {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.inputsProductsPostTitle {
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.inputsProductsPostHolders {
+background-color: #FFFFFF;
+border-radius: 10px;
+width: 402px;
+height: 50px;
+border: none;
+}
+
+.buttonsProductsPostContainer {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.buttonProductsPost{
+background-color: #b948ff;
+border-radius: 10px;
+width: 300px;
+height: 50px;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+color: #000000;
+}
+
+.footerProductsPost {
+/* height: 30vh; */
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 5vh;
+}
+
+.consoleBG {
+background-color: #454545;
+border-radius: 10px;
+width: 994px;
+height: 220px;
+margin-bottom: 30px;
+}
+.consoleDisplay {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+/* height: 100%; */
+}  
+.consoleDisplayContentText {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+margin: 1%;
+}
+
+.consoleDisplayContentStatus {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+margin: 1%;
+}

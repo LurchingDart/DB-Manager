@@ -5,8 +5,11 @@
 }
 
 .navbar {
-    background: #19191a;
-    height: 80px;
+    background: #3c3c3c;
+    height: 12vh;
+    max-height: 80px;
+    min-height: 60px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios';
-import "../styles/Categories.css"
+import Button from '@mui/material/Button';
+import "../../styles/Categories/Categories.css"
 // import Console from './../components/Console';
 
 function handleSubmit() {
@@ -14,22 +15,22 @@ function handleSubmit() {
         document.querySelector(".consoleDisplayContentStatus").style.color = "green";
         })
         .catch(error => {
-        if (error.response) {
-            document.querySelector(".consoleDisplayContentText").innerHTML = error.response.status;
-        } else {
-            document.querySelector(".consoleDisplayContentText").innerHTML = "Error en la solicitud";
-        }
-        document.querySelector(".consoleDisplayContentText").style.color = "red";
+            console.log(error)
+            if (error.code === 'ERR_NETWORK') {
+                document.querySelector(".consoleDisplayContentStatus").innerHTML = "500";
+            }
+            document.querySelector(".consoleDisplayContentText").innerHTML = error.message;
+            document.querySelector(".consoleDisplayContentStatus").style.color = "red";
     });
 }
 
-function Test() {
+function Categories() {
     return (
         <div className="containerCategories">
             <header className="headerCategories">
                 <h1 className="titleCategories">Categories</h1>
             </header>
-            <body className="bodyCategories">
+            <main className="bodyCategories">
                 <div className="inputsCategoriesContainer">
                 <div className="inputsCategoriesContainerLeft">
                     <h4 className="inputsCategoriesTitle">Name</h4>
@@ -48,7 +49,7 @@ function Test() {
                     Submit
                 </button>
                 </div>
-            </body>
+            </main>
             <footer className="footerCategories">
             <div className="consoleBG">
                 <div className="consoleDisplay">
@@ -61,4 +62,4 @@ function Test() {
     );
 }
 
-export default Test;
+export default Categories;
